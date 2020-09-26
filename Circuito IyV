@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+
+int main()
+{
+    float V,VR1,VR2,VR3;
+    int R1,R2,R3,RT;
+    float IT,I1,I2,I3;
+
+    printf("Escribe el valor de la fuente V: ");//El voltaje es el mismmo en todas las resistencias
+    scanf("%f", &V);
+
+    printf("Resistencia 1: ");
+    scanf("%d", &R1);
+    printf("Resistencia 2: ");
+    scanf("%d", &R2);
+    printf("Resistencia 3: ");
+    scanf("%d", &R3);
+
+
+    I1=V/R1;
+    printf("La Corriente en R1 es %fA\n",I1);
+
+    I2=V/R2;
+    printf("La Corriente en R2 %fA\n",I2);
+
+    I3=V/R3;
+    printf("La Corriente en R3 es %fA\n",I3);
+
+    IT=I1+I2+I3;
+    printf("La Corriente total es %fA\n",IT);
+
+    VR1=V;
+    printf("El voltaje en R1 es %fA\n",VR1);
+
+    VR2=V;
+    printf("El voltaje en R2 es %fA\n",VR2);
+
+    VR3=V;
+    printf("El voltaje en R3 es %fA\n",VR3);
+
+
+    return 0;
+}
