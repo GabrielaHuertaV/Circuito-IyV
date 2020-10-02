@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main ()
+{
+ flotar a, b, c, x1, x2, p;
+ printf ("ingresa los valores para a \ nb \ nc \ n");
+ scanf ("% f", & a);
+ scanf ("% f", & b);
+ scanf ("% f", & c);
+
+p = pow (b, 2) -4 * a * c;
+x1 = ((- b + sqrt (p)) / (2 * a));
+x2 = ((- b-sqrt (p)) / (2 * a));
+
+ printf ("el resultado para x1 es \ a% f", x1);
+ printf ("el resultado para x2 es \ a% f", x2);
+}
