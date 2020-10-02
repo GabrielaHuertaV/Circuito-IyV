@@ -1,0 +1,88 @@
+#include <stdio.h>
+
+principal()
+{
+    char Calificacion1, Calificacion2, Calificacion3;
+    flotador cal1, cal2, cal3, prom;
+
+
+    printf ("Ingresa tres calificaciones:");
+    scanf ("% c% c% c", & Calificacion1, & Calificacion2, & Calificacion3);
+
+
+
+
+if ((Calificacion1 == 'A') || (Calificacion1 == 'a'))
+       cal1 = 0 + 10;
+
+    else if ((Calificacion1 == 'B') || (Calificacion1 == 'b'))
+        cal1 = 0 + 9;
+
+    else if ((Calificacion1 == 'C') || (Calificacion1 == 'c'))
+        cal1 = 0 + 8;
+
+    else if ((Calificacion1 == 'D') || (Calificacion1 == 'd'))
+        cal1 = 0 + 7;
+
+    else if ((Calificacion1 == 'E') || (Calificacion1 == 'e'))
+        cal1 = 0 + 6;
+
+    else if ((Calificacion1 == 'F') || (Calificacion1 == 'f'))
+        cal1 = 0 + 5;
+
+        más
+        {
+            printf ("calificacion reprobatoria \ n");
+        }
+
+if ((Calificacion2 == 'A') || (Calificacion2 == 'a'))
+       cal2 = 0 + 10;
+
+
+    else if ((Calificacion2 == 'B') || (Calificacion2 == 'b'))
+        cal2 = 0 + 9;
+
+   else if ((Calificacion2 == 'C') || (Calificacion2 == 'c'))
+        cal2 = 0 + 8;
+
+   else if ((Calificacion2 == 'D') || (Calificacion2 == 'd'))
+        cal2 = 0 + 7;
+
+   else if ((Calificacion2 == 'E') || (Calificacion2 == 'e'))
+        cal2 = 0 + 6;
+
+   else if ((Calificacion2 == 'F') || (Calificacion2 == 'f'))
+        cal2 = 0 + 5;
+         más
+         {
+             printf ("calificacion reprobatoria \ n");
+         }
+if ((Calificacion3 == 'A') || (Calificacion3 == 'a'))
+       cal3 = 0 + 10;
+
+   else if ((Calificacion3 == 'B') || (Calificacion3 == 'b'))
+        cal3 = 0 + 9;
+
+   else if ((Calificacion3 == 'C') || (Calificacion3 == 'c'))
+        cal3 = 0 + 8;
+
+   else if ((Calificacion3 == 'D') || (Calificacion3 == 'd'))
+        cal3 = 0 + 7;
+
+   else if ((Calificacion3 == 'E') || (Calificacion3 == 'e'))
+        cal3 = 0 + 6;
+
+   else if ((Calificacion3 == 'F') || (Calificacion3 == 'f'))
+        cal3 = 0 + 5;
+   más
+   {
+       printf ("calificacion reprobatoria \ n");
+   }
+
+      prom = (cal1 + cal2 + cal3) / 3;
+
+{
+printf ("Tu promedio es de:% f \ n", prom);
+}
+
+    }
